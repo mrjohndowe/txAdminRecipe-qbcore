@@ -461,7 +461,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-printer
     ref: main
-    src: https://github.com/qbcore-framework/qb-printer
+    src: https://github.com/qbcore-framework/qb-printer    
 
   # Clean up
   - action: remove_path
